@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Это моя первая страница">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<meta property="og/title" content="Урок 2">
 
@@ -31,14 +34,16 @@
 
 	<div class="main"><div class="title">
 		<h1>Привет <br> Я Кирилл</h1>
-		<h4>Фулл-стек  веб разработчик</h4>
+		<h4>Фулл-стек веб разработчик</h4>
 		<input type="submit" name="" value="Обо мне">
 		<input type="submit" name="" value="Мои работы">
 	</div></div>
 
 	<div class="about_me">
 		<h3>ОБО МНЕ</h3>
-		<img src="" alt="Мой красивый фейс">
+		<img src="img/line_about_me.png" class="line_am">
+		<br>
+		<img src="img/about_me2.jpg" alt="Мой красивый фейс" class="photo_am">
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores, quam, perspiciatis. Inventore modi cum deleniti velit impedit, dolore ab ex alias incidunt tempora assumenda, optio a tempore quasi vel magnam nobis explicabo error!</p>
 		<input type="submit" name="" value="Скачать резюме">
@@ -46,27 +51,28 @@
 
 	<div class="i_can">
 		<h3>ЧТО Я УМЕЮ</h3>
+		<img src="img/line_about_me.png" class="line_ic">
 		<div class="skills">
 			<ul>
 				<li>
-					<img src="" alt="Ноут">
+					<img src="img/icon/nout.png" alt="Ноут">
 					<h5>Веб-дизайн</h5>
-					<p class="skills_text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Qui suscipit ea voluptatem eum excepturi quos sit tempora? Quidem corrupti, animi!</p>
+					<p class="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ullam?</p>
 				</li>
 				<li>
-					<img src="" alt="Скобочки">
+					<img src="img/icon/skobki.png" alt="Скобочки">
 					<h5>Разработка</h5>
-					<p class="skills_text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Qui suscipit ea voluptatem eum excepturi quos sit tempora? Quidem corrupti, animi!</p>
+					<p class="skills_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ea.</p>
 				</li>
 				<li>
-					<img src="" alt="Ракета">
+					<img src="img/icon/roket.png" alt="Ракета">
 					<h5>СЕО-оптимизация</h5>
-					<p class="skills_text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Qui suscipit ea voluptatem eum excepturi quos sit tempora? Quidem corrupti, animi!</p>
+					<p class="skills_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, repellat?</p>
 				</li>
 				<li>
-					<img src="" alt="Орало">
+					<img src="img/icon/oralo.png" alt="Орало">
 					<h5>Маркетинг</h5>
-					<p class="skills_text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Qui suscipit ea voluptatem eum excepturi quos sit tempora? Quidem corrupti, animi!</p>
+					<p class="skills_text">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Temporibus, quasi.</p>
 				</li>
 			</ul>
 		</div>
@@ -74,17 +80,23 @@
 
 	<div class="cases">
 		<h3>КЕЙСЫ</h3>
-		<img src="" alt="фотка готового проекта">
-		<h4>Название проекта</h4>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Adipisci sit odio inventore ut sint corrupti cumque magnam facilis tempora, architecto eaque error omnis id optio alias culpa earum ducimus? Rem.</p>
-		<div class="cases_other">
-			<ul>
-				<li>CLIENT:<br>Минимум Яндекс</li>
-				
-				<li>WEBSITE:<br><a href="http://www.yandex.ru">http://www.yandex.ru</a></li>
-				
-			</ul>
-			<input type="submit" name="" value="VISIT LIVE SITE">
+		<img src="img/line_about_me.png" class="line_cases">
+		<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Adipisci libero culpa incidunt, corrupti. Libero voluptate, odio tempora eius, asperiores doloremque.</p>
+		<img  class="photo_case"src="img/photo_case.png" alt="фотка готового проекта">
+		<div class="other">
+			<div class="name_project">
+			<h4>Название проекта</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur ea aperiam, obcaecati, non magnam rerum tempora corrupti quidem voluptate itaque vel cumque, beatae nobis. Enim asperiores, quaerat libero. Quibusdam totam, libero, laudantium ratione reprehenderit in nam. Velit, obcaecati blanditiis.</p>
+			</div>
+			<div class="cases_other">
+				<ul>
+					<li><h4>CLIENT:</h4><br><p>Минимум Яндекс</p></li>
+					
+					<li><h4>WEBSITE:</h4><br><p>http://www.yandex.ru</p></li>
+					
+				</ul>
+				<input type="submit" name="" value="VISIT LIVE SITE">
+			</div>
 		</div>
 	</div>
 	<div class="cash">
@@ -103,7 +115,7 @@
 				</li>
 				<li>
 					<h5>ДИЗАЙН</h5>
-					<select name="list1" id="1">
+					<select name="list1" id="2">
 						<option disabled="" selected="">Выберите вариант... </option>
 						<option value="Optoin1">Optoin1</option>
 						<option value="Option2">Option2</option>
@@ -113,7 +125,7 @@
 				</li>
 				<li>
 					<h5>АДАПТИВНОСТЬ</h5>
-					<select name="list1" id="1">
+					<select name="list1" id="3">
 						<option disabled="" selected="">Выберите вариант... </option>
 						<option value="Optoin1">Optoin1</option>
 						<option value="Option2">Option2</option>
@@ -122,13 +134,13 @@
 					</select>  
 				</li>
 			</ul>
-			<ul>
-				<li>
+			<ul class="result">
+				<li class="str">
 					<p>Сроки</p>
-					<p>0</p>
-				</li>
-				<li>
 					<p>Стоимость</p>
+				</li>
+				<li class="num">
+					<p>0</p>
 					<p>0</p>
 				</li>
 			</ul>
@@ -137,24 +149,25 @@
 
 	<div class="stat">
 		<h3>НЕМНОГО СТАТИСТИКИ</h3>
+		<img src="img/line_about_me.png" class="line_stat">
 		<div class="stat_exampl">
 			<ul>
 				<li>
-					<img src="" alt="Смайлик">
+					<img src="img/icon/smile_orange.png" alt="Смайлик">
 					<h5>120</h5>
 					<p class="stat_text">Довольных клиентов</p>
 				</li>
 				<li>
-					<img src="" alt="Скобочки">
+					<img src="img/icon/skobki_orange.png" alt="Скобочки">
 					<h5>4600</h5>
 					<p class="stat_text">Часов работы</p>
 				<li>
-					<img src="" alt="Галочка">
+					<img src="img/icon/galka_orange.png" alt="Галочка">
 					<h5>340</h5>
 					<p class="stat_text">Проектов закончено</p>
 				</li>
 				<li>
-					<img src="" alt="Кубок">
+					<img src="img/icon/kubok_orange.png" alt="Кубок">
 					<h5>23</h5>
 					<p class="stat_text">Наград получено</p>
 				</li>
@@ -164,54 +177,62 @@
 
 	<div class="review">
 		<h3>ОТЗЫВЫ</h3>
-		<img src="" alt="Ещё один красивый фейс">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
+		<img src="img/line_about_me.png" class="line_review">
+		<img src="img/dyrov.jpeg" alt="Ещё один красивый фейс" class="otzv">
+		<div class="otzv_text">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
+		</div>
 		<p>Иванов Иван</p>
+
+		<div class="dots">
+		
+		</div>
 		
 	</div>
 
 	<div class="contact">
 		<h3>МОИ КОНТАКТЫ</h3>
+		<img src="img/line_about_me.png" class="line_contact">
 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, minima.</p>
 		<div class="contact_icon">
 			<ul>
 				<li>
-					<img src="" alt="Значек позиции">
+					<img src="img/icon/geo_white.png" alt="Значек позиции">
 					<p>Иркутск</p>
 				</li>
 				<li>
-					<img src="" alt="Почтовый конверт">
+					<img src="img/icon/konvert_white.png" alt="Почтовый конверт">
 					<p>kirill.duakonov.96@gmail.com</p>
 				</li>
 				<li>
-					<img src="" alt="Телефонная трубка">
+					<img src="img/icon/phone_white.png" alt="Телефонная трубка">
 					<p>+7999-999-99-99</p>
 				</li>
 			</ul>
-			<div class="forma_svaz">
+		</div>
+		<div class="forma_svaz">
 				<h4>Оставте мне сообщение</h4>
 				<form action="#">
-					<input type="text" name="textInput" value="" placeholder="Введите Ваше имя">
-					<input type="text" name="textInput" value="" placeholder="Введите Ваш Email">
+					<input class="text" type="text" name="textInput" value="" placeholder="Имя">
+					<input class="text two" type="text" name="textInput" value="" placeholder="Email">
 					<textarea placeholder="Введите сообщение"></textarea>
-					<input type="submit" name="" value="Отправить">
+					<input class="button" type="submit" name="" value="Отправить">
 				</form>
-			</div>
-			<ul class="social">
-				<li>
-					<a href="http://www.twitter.com"><img src="" alt="Значек твитера"></a>
-				</li>
-				<li>
-					<a href="http://www.facebook.com"><img src="" alt="Значек фейсбука"></a>
-				</li>
-				<li>
-					<a href="http://www.github.com"><img src="" alt="Значек гита"></a>
-				</li>
-				<li>
-					<a href="http://www.instagram.com"><img src="" alt="Значек инсты"></a>
-				</li>
-			</ul>
 		</div>
+		<ul class="social">
+			<li>
+				<a href="http://www.twitter.com"><img src="img/icon/ball_white.png" alt="Значек мячика"></a>
+			</li>
+			<li>
+				<a href="http://www.facebook.com"><img src="img/icon/fb_white.png" alt="Значек фейсбука"></a>
+			</li>
+			<li>
+				<a href="http://www.github.com"><img src="img/icon/git_white.png" alt="Значек гита"></a>
+			</li>
+			<li>
+				<a href="http://www.instagram.com"><img src="img/icon/inst_white.png" alt="Значек инсты"></a>
+			</li>
+		</ul>
 	</div>
 
 	<div class="map">
