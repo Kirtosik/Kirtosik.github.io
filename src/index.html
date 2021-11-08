@@ -14,30 +14,49 @@
 	<title>Практика</title>
 </head>
 <body>
+	<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script>
+
+	<div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+
 	<header>
 		<nav>
 			<div class="logo">Кирилл</div>
 
 			<div class="menu">
 				<ul>
-					<li>Обо мне</li>
-					<li>Услуги</li>
-					<li>Кейсы</li>
-					<li>Прайс</li>
-					<li>Отзывы</li>
-					<li>Контакты</li>
+					<li><a href="">Обо мне</a></li>
+					<li><a href="">Услуги</a></li>
+					<li><a href="">Кейсы</a></li>
+					<li><a href="">Прайс</a></li>
+					<li><a href="">Отзывы</a></li>
+					<li><a href="">Контакты</a></li>
 				</ul>
 			</div>
 
 		</nav>
 	</header>
-
-	<div class="main"><div class="title">
+	<main>
+	<section class="main"><div class="title">
 		<h1>Привет <br> Я Кирилл</h1>
 		<h4>Фулл-стек веб разработчик</h4>
-		<input type="submit" name="" value="Обо мне">
-		<input type="submit" name="" value="Мои работы">
-	</div></div>
+		<input type="button" name="" value="Обо мне">
+		<input type="button" name="" value="Мои работы">
+	</div>
+	</section>
+	</main>
 
 	<div class="about_me">
 		<h3>ОБО МНЕ</h3>
@@ -95,7 +114,7 @@
 					<li><h4>WEBSITE:</h4><br><p>http://www.yandex.ru</p></li>
 					
 				</ul>
-				<input type="submit" name="" value="VISIT LIVE SITE">
+				<input type="button" name="" value="VISIT LIVE SITE">
 			</div>
 		</div>
 	</div>
@@ -216,7 +235,7 @@
 					<input class="text" type="text" name="textInput" value="" placeholder="Имя">
 					<input class="text two" type="text" name="textInput" value="" placeholder="Email">
 					<textarea placeholder="Введите сообщение"></textarea>
-					<input class="button" type="submit" name="" value="Отправить">
+					<input class="button" type="button" name="" value="Отправить">
 				</form>
 		</div>
 		<ul class="social">

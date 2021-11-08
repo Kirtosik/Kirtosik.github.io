@@ -1,0 +1,85 @@
+body{
+	padding: 50px;
+}
+
+.box span{
+	display: block;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.box {
+
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	background-color: azure;
+	animation-name:move;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+}
+
+@keyframes move {
+	0%{
+		margin: 0px;
+	}
+
+	100% {
+		margin: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxik{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	background-color: azure;
+	transition-duration: 1s; /*время на изменение*/
+	transition-property: all; /*что менять*/
+	transition-delay: 0.1s; /*задержка изменений*/
+	transition-timing-function: ease-out;/*варианты выполнения изменений*/
+	transition: /*можно все в одну строчку*/
+
+}
+
+
+
+.boxik:active{
+	margin-left: 300px;
+
+}
