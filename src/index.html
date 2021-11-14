@@ -1,267 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Это моя первая страница">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Это моя первая страница">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-	<meta property="og/title" content="Урок 2">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+		<meta property="og/title" content="Урок 2">
 
 
-	<title>Практика</title>
-</head>
-<body>
-	<script>
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  }
-</script>
+		<title>Практика</title>
+	</head>
+	<body>
+		<script>
+	  		window.onload = function () {
+			    document.body.classList.add('loaded_hiding');
+			    window.setTimeout(function () {
+			      document.body.classList.add('loaded');
+			      document.body.classList.remove('loaded_hiding');
+			    	}, 500);
+			  }
+		</script>
 
-	<div class="preloader">
-  <div class="preloader__row">
-    <div class="preloader__item"></div>
-    <div class="preloader__item"></div>
-  </div>
-</div>
+		<div class="preloader">
+	 		 <div class="preloader__row">
+	    		<div class="preloader__item"></div>
+	    		<div class="preloader__item"></div>
+	  		</div>
+		</div>
 
-	<header>
-		<nav>
-			<div class="logo">Кирилл</div>
+		<header>
+			<nav>
+				<div class="container">
+					<div class="row">
+						<div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6" ><div class="logo">Кирилл Дьяконов</div></div>
+						<div class="px-0 col-xxl-4 col-xl-5 col-lg-6 offset-xxl-6 offset-xl-5 offset-lg-3 d-lg-block
+						d-none" >
+							<div class="menu">
+								<ul>
+									<li><a href="">Обо мне</a></li>
+									<li><a href="">Услуги</a></li>
+									<li><a href="">Кейсы</a></li>
+									<li><a href="">Прайс</a></li>
+									<li><a href="">Отзывы</a></li>
+									<li><a href="">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+								<div class="col-md-6  col-sm-6  d-flex  d-lg-none flex-column justify-content-center align-items-end">
+								
+									<div class="dropdown">
+									  <a class="btn btn-outline-secondary white-btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+									    Навигация
+									  </a>
 
-			<div class="menu">
+									  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									    <li><a class="dropdown-item" href="">Обо мне</a></li>
+										<li><a class="dropdown-item" href="">Услуги</a></li>
+										<li><a class="dropdown-item" href="">Кейсы</a></li>
+										<li><a class="dropdown-item" href="">Прайс</a></li>
+										<li><a class="dropdown-item" href="">Отзывы</a></li>
+										<li><a class="dropdown-item" href="">Контакты</a></li>
+									  </ul>
+									</div>
+								</div>
+							</div>
+						</div>
+			</nav>
+		</header>
+		<main>
+			<section class="main">
+				<div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5">
+					<div class="title mt-5">
+					<h1>Привет <br> Я Кирилл Дьяконов</h1>
+					<h4><i class="fa fa-css3" aria-hidden="true"></i>Фулл-стек веб разработчик</h4>
+					<input type="button" name="" value="Обо мне">
+					<input type="button" name="" value="Мои работы">
+				</div>
+				</div></div></div>
+				
+			</section>
+		</main>
+
+		<div class="about_me">
+			<div class="container">
+				<div class="row"><div class="col-4 offset-4 gy-5 ">
+					<h3>ОБО МНЕ</h3>
+				</div></div>
+
+				<div class="row"><div class="col-4 offset-4">
+					<img src="img/line_about_me.png" class="line_am">
+				</div></div>
+
+				<div class="row justify-content-center">
+					<div class="col-8"><br>
+						<img src="img/about_me2.jpg" alt="Мой красивый фейс" class="photo_am">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores, quam, perspiciatis. Inventore modi cum deleniti velit impedit, dolore ab ex alias incidunt tempora assumenda, optio a tempore quasi vel magnam nobis explicabo error!</p>
+							<input type="submit" name="" value="Скачать резюме">
+						</div> 
+				
+				</div></div>
+			
+		</div>
+
+		<div class="i_can">
+			<div class="container">
+				<div class="row"><div class="col gy-5 ">
+						<h3>ЧТО Я УМЕЮ</h3>
+				</div></div>
+
+				<div class="row"><div class="col">
+					<img src="img/line_about_me.png" class="line_ic">
+				</div></div>
+
+
+					<div class="skills row justify-content-center">
+						<ul>
+							<li class="col">
+								<img src="img/icon/nout.png" alt="Ноут">
+								<h5>Веб-дизайн</h5>
+								<p class="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ullam?</p>
+							</li>
+							<li class="col">
+								<img src="img/icon/skobki.png" alt="Скобочки">
+								<h5>Разработка</h5>
+								<p class="skills_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ea.</p>
+							</li>
+							<li class="col">
+								<img src="img/icon/roket.png" alt="Ракета">
+								<h5>СЕО-оптимизация</h5>
+								<p class="skills_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, repellat?</p>
+							</li>
+							<li class="col">
+								<img src="img/icon/oralo.png" alt="Орало">
+								<h5>Маркетинг</h5>
+								<p class="skills_text">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Temporibus, quasi.</p>
+							</li>
+						</ul>
+					</div>
+			</div>
+		
+		</div>
+
+		<div class="cases">
+			<div class="container">
+			<h3>КЕЙСЫ</h3>
+			<img src="img/line_about_me.png" class="line_cases">
+			<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Adipisci libero culpa incidunt, corrupti. Libero voluptate, odio tempora eius, asperiores doloremque.</p>
+			<img  class="photo_case"src="img/photo_case.png" alt="фотка готового проекта">
+			<div class="other row mt-5">
+				<div class="cases_other col-3 offset-2 col-xl-3 offset-xl-1 col-lg-2 offset-lg-1 col-md-2 offset-md-0">
+					<ul>
+						<li><h4>CLIENT:</h4><br><p>Минимум Яндекс</p></li>
+						
+						<li><h4>WEBSITE:</h4><br><p>http://www.yandex.ru</p></li>
+						
+					</ul>
+					<input type="button" name="" value="ПЕРЕЙТИ НА САЙТ">
+				</div>
+				<div class="name_project col-xl-5 col-lg-5 col-md-4 offset-xxl-0 offset-xl-0 offset-lg-0 offset-md-1">
+				<h4>Название проекта</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur ea aperiam, obcaecati, non magnam rerum tempora corrupti quidem voluptate itaque vel cumque, beatae nobis. Enim asperiores, quaerat libero. Quibusdam totam, libero, laudantium ratione reprehenderit in nam. Velit, obcaecati blanditiis.</p>
+				</div>
+				
+			</div>
+			</div>
+		</div>
+
+
+		<div class="cash container">
+			<div class="row">
+				<div class="col-8 offset-2">
+			<form action="#" class="form_cash">
+				<h3>Расчет стоимости</h3>
+				<ul class="tabl_cash">
+					<li>
+						<h5>ТИП САЙТА</h5>
+						<select name="list1" id="1">
+							<option disabled="" selected="">Выберите вариант... </option>
+							<option value="Optoin1">Optoin1</option>
+							<option value="Option2">Option2</option>
+							<option value="Optoin3">Optoin3</option>
+							<option value="Option4">Option4</option>
+						</select>  
+					</li>
+					<li>
+						<h5>ДИЗАЙН</h5>
+						<select name="list1" id="2">
+							<option disabled="" selected="">Выберите вариант... </option>
+							<option value="Optoin1">Optoin1</option>
+							<option value="Option2">Option2</option>
+							<option value="Optoin3">Optoin3</option>
+							<option value="Option4">Option4</option>
+						</select>  
+					</li>
+					<li>
+						<h5>АДАПТИВНОСТЬ</h5>
+						<select name="list1" id="3">
+							<option disabled="" selected="">Выберите вариант... </option>
+							<option value="Optoin1">Optoin1</option>
+							<option value="Option2">Option2</option>
+							<option value="Optoin3">Optoin3</option>
+							<option value="Option4">Option4</option>
+						</select>  
+					</li>
+				</ul>
+				<ul class="result row">
+
+					<li class="str col">
+						<p>Сроки</p>
+						<p>Стоимость</p>
+					</li>
+					<li class="num col align-items-end">
+						<p>0</p>
+						<p>0</p>
+					</li>
+				</ul>
+				<input class="result_b" type="button" name="" value="ОСТАВИТЬ ЗАЯВКУ">
+			</form>
+			</div>
+		</div>
+		</div>
+
+		<div class="stat container">
+			<div class="row"><div class="col gy-5 ">
+				<h3>НЕМНОГО СТАТИСТИКИ</h3>
+			</div></div>
+
+			<div class="row"><div class="col">
+				<img src="img/line_about_me.png" class="line_stat">
+			</div></div>
+
+			<div class="stat_exampl row justify-content-center">
 				<ul>
-					<li><a href="">Обо мне</a></li>
-					<li><a href="">Услуги</a></li>
-					<li><a href="">Кейсы</a></li>
-					<li><a href="">Прайс</a></li>
-					<li><a href="">Отзывы</a></li>
-					<li><a href="">Контакты</a></li>
+					<li class="col">
+						<img src="img/icon/smile_orange.png" alt="Смайлик">
+						<h5>120</h5>
+						<p class="stat_text">Довольных клиентов</p>
+					</li>
+					<li class="col">
+						<img src="img/icon/skobki_orange.png" alt="Скобочки">
+						<h5>4600</h5>
+						<p class="stat_text">Часов работы</p>
+					</li>
+					<li class="col">
+						<img src="img/icon/galka_orange.png" alt="Галочка">
+						<h5>340</h5>
+						<p class="stat_text">Проектов закончено</p>
+					</li>
+					<li class="col">
+						<img src="img/icon/kubok_orange.png" alt="Кубок">
+						<h5>23</h5>
+						<p class="stat_text">Наград получено</p>
+					</li>
 				</ul>
 			</div>
-
-		</nav>
-	</header>
-	<main>
-	<section class="main"><div class="title">
-		<h1>Привет <br> Я Кирилл</h1>
-		<h4>Фулл-стек веб разработчик</h4>
-		<input type="button" name="" value="Обо мне">
-		<input type="button" name="" value="Мои работы">
-	</div>
-	</section>
-	</main>
-
-	<div class="about_me">
-		<h3>ОБО МНЕ</h3>
-		<img src="img/line_about_me.png" class="line_am">
-		<br>
-		<img src="img/about_me2.jpg" alt="Мой красивый фейс" class="photo_am">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores, quam, perspiciatis. Inventore modi cum deleniti velit impedit, dolore ab ex alias incidunt tempora assumenda, optio a tempore quasi vel magnam nobis explicabo error!</p>
-		<input type="submit" name="" value="Скачать резюме">
-	</div>
-
-	<div class="i_can">
-		<h3>ЧТО Я УМЕЮ</h3>
-		<img src="img/line_about_me.png" class="line_ic">
-		<div class="skills">
-			<ul>
-				<li>
-					<img src="img/icon/nout.png" alt="Ноут">
-					<h5>Веб-дизайн</h5>
-					<p class="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ullam?</p>
-				</li>
-				<li>
-					<img src="img/icon/skobki.png" alt="Скобочки">
-					<h5>Разработка</h5>
-					<p class="skills_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, ea.</p>
-				</li>
-				<li>
-					<img src="img/icon/roket.png" alt="Ракета">
-					<h5>СЕО-оптимизация</h5>
-					<p class="skills_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, repellat?</p>
-				</li>
-				<li>
-					<img src="img/icon/oralo.png" alt="Орало">
-					<h5>Маркетинг</h5>
-					<p class="skills_text">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Temporibus, quasi.</p>
-				</li>
-			</ul>
 		</div>
-	</div>
 
-	<div class="cases">
-		<h3>КЕЙСЫ</h3>
-		<img src="img/line_about_me.png" class="line_cases">
-		<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Adipisci libero culpa incidunt, corrupti. Libero voluptate, odio tempora eius, asperiores doloremque.</p>
-		<img  class="photo_case"src="img/photo_case.png" alt="фотка готового проекта">
-		<div class="other">
-			<div class="name_project">
-			<h4>Название проекта</h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur ea aperiam, obcaecati, non magnam rerum tempora corrupti quidem voluptate itaque vel cumque, beatae nobis. Enim asperiores, quaerat libero. Quibusdam totam, libero, laudantium ratione reprehenderit in nam. Velit, obcaecati blanditiis.</p>
+		<div class="review container justify-content-center">
+			<div class="row"><div class="col-4 offset-4 gy-5 ">
+				<h3>ОТЗЫВЫ</h3>
+			</div></div>
+
+			<div class="row"><div class="col-4 offset-4">
+				<img src="img/line_about_me.png" class="line_review">
+			</div></div>
+
+			<div class="row justify-content-center">
+				<div class="col-8">
+					<img src="img/dyrov.jpeg" alt="Ещё один красивый фейс" class="otzv">
+					<div class="row justify-content-center">
+						<div class="col">
+						<div class="otzv_text">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
+							<br>
+						
+							<p class="mt-10">Иванов Иван</p>
+						</div>
+					</div>
+					</div>
+
+					<div class="dots">
+					
+					</div>
+				</div>
 			</div>
-			<div class="cases_other">
+		</div>
+
+		<div class="contact">
+			<div class="container">
+			<div class="row"><div class="col-4 offset-4 gy-5 ">
+				<h3>МОИ КОНТАКТЫ</h3>
+			</div></div>
+
+			<div class="row"><div class="col-4 offset-4">
+				<img src="img/line_about_me.png" class="line_contact">
+
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, minima.</p>
+
+			</div></div>
+			<div class="contact_icon row justify-content-center">
 				<ul>
-					<li><h4>CLIENT:</h4><br><p>Минимум Яндекс</p></li>
-					
-					<li><h4>WEBSITE:</h4><br><p>http://www.yandex.ru</p></li>
-					
+					<li class="col">
+						<img src="img/icon/geo_white.png" alt="Значек позиции">
+						<p>Иркутск</p>
+					</li>
+					<li class="col">
+						<img src="img/icon/konvert_white.png" alt="Почтовый конверт">
+						<p>kirill.duakonov.96@gmail.com</p>
+					</li>
+					<li class="col">
+						<img src="img/icon/phone_white.png" alt="Телефонная трубка">
+						<p>+7999-999-99-99</p>
+					</li>
 				</ul>
-				<input type="button" name="" value="VISIT LIVE SITE">
 			</div>
-		</div>
-	</div>
-	<div class="cash">
-		<h3>Расчет стоимости</h3>
-		<form action="#">
-			<ul class="tabl_cash">
-				<li>
-					<h5>ТИП САЙТА</h5>
-					<select name="list1" id="1">
-						<option disabled="" selected="">Выберите вариант... </option>
-						<option value="Optoin1">Optoin1</option>
-						<option value="Option2">Option2</option>
-						<option value="Optoin3">Optoin3</option>
-						<option value="Option4">Option4</option>
-					</select>  
+			<div class="forma_svaz">
+					<h4>Оставте мне сообщение</h4>
+					<div class="row justify-content-center">
+						<div class="col-8">
+							<form action="#">
+								<div class="row justify-content-center">
+									<input class="text col" type="text" name="textInput" value="" placeholder="Имя">
+									<input class="text two col" type="text" name="textInput" value="" placeholder="Email">
+								</div>
+								<div class="row">
+									<textarea placeholder="Введите сообщение" class="col"></textarea>
+								</div>
+								<input class="button" type="button" name="" value="Отправить">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<ul class="social">
+				<li class="col">
+					<a href="http://www.twitter.com"><img src="img/icon/ball_white.png" alt="Значек мячика"></a>
 				</li>
-				<li>
-					<h5>ДИЗАЙН</h5>
-					<select name="list1" id="2">
-						<option disabled="" selected="">Выберите вариант... </option>
-						<option value="Optoin1">Optoin1</option>
-						<option value="Option2">Option2</option>
-						<option value="Optoin3">Optoin3</option>
-						<option value="Option4">Option4</option>
-					</select>  
+				<li class="col">
+					<a href="http://www.facebook.com"><img src="img/icon/fb_white.png" alt="Значек фейсбука"></a>
 				</li>
-				<li>
-					<h5>АДАПТИВНОСТЬ</h5>
-					<select name="list1" id="3">
-						<option disabled="" selected="">Выберите вариант... </option>
-						<option value="Optoin1">Optoin1</option>
-						<option value="Option2">Option2</option>
-						<option value="Optoin3">Optoin3</option>
-						<option value="Option4">Option4</option>
-					</select>  
+				<li class="col">
+					<a href="http://www.github.com"><img src="img/icon/git_white.png" alt="Значек гита"></a>
 				</li>
-			</ul>
-			<ul class="result">
-				<li class="str">
-					<p>Сроки</p>
-					<p>Стоимость</p>
-				</li>
-				<li class="num">
-					<p>0</p>
-					<p>0</p>
-				</li>
-			</ul>
-		</form>
-	</div>
-
-	<div class="stat">
-		<h3>НЕМНОГО СТАТИСТИКИ</h3>
-		<img src="img/line_about_me.png" class="line_stat">
-		<div class="stat_exampl">
-			<ul>
-				<li>
-					<img src="img/icon/smile_orange.png" alt="Смайлик">
-					<h5>120</h5>
-					<p class="stat_text">Довольных клиентов</p>
-				</li>
-				<li>
-					<img src="img/icon/skobki_orange.png" alt="Скобочки">
-					<h5>4600</h5>
-					<p class="stat_text">Часов работы</p>
-				<li>
-					<img src="img/icon/galka_orange.png" alt="Галочка">
-					<h5>340</h5>
-					<p class="stat_text">Проектов закончено</p>
-				</li>
-				<li>
-					<img src="img/icon/kubok_orange.png" alt="Кубок">
-					<h5>23</h5>
-					<p class="stat_text">Наград получено</p>
+				<li class="col">
+					<a href="http://www.instagram.com"><img src="img/icon/inst_white.png" alt="Значек инсты"></a>
 				</li>
 			</ul>
 		</div>
-	</div>
-
-	<div class="review">
-		<h3>ОТЗЫВЫ</h3>
-		<img src="img/line_about_me.png" class="line_review">
-		<img src="img/dyrov.jpeg" alt="Ещё один красивый фейс" class="otzv">
-		<div class="otzv_text">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
 		</div>
-		<p>Иванов Иван</p>
 
-		<div class="dots">
-		
+		<div class="map">
+			
+
 		</div>
-		
-	</div>
 
-	<div class="contact">
-		<h3>МОИ КОНТАКТЫ</h3>
-		<img src="img/line_about_me.png" class="line_contact">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, minima.</p>
-		<div class="contact_icon">
-			<ul>
-				<li>
-					<img src="img/icon/geo_white.png" alt="Значек позиции">
-					<p>Иркутск</p>
-				</li>
-				<li>
-					<img src="img/icon/konvert_white.png" alt="Почтовый конверт">
-					<p>kirill.duakonov.96@gmail.com</p>
-				</li>
-				<li>
-					<img src="img/icon/phone_white.png" alt="Телефонная трубка">
-					<p>+7999-999-99-99</p>
-				</li>
-			</ul>
-		</div>
-		<div class="forma_svaz">
-				<h4>Оставте мне сообщение</h4>
-				<form action="#">
-					<input class="text" type="text" name="textInput" value="" placeholder="Имя">
-					<input class="text two" type="text" name="textInput" value="" placeholder="Email">
-					<textarea placeholder="Введите сообщение"></textarea>
-					<input class="button" type="button" name="" value="Отправить">
-				</form>
-		</div>
-		<ul class="social">
-			<li>
-				<a href="http://www.twitter.com"><img src="img/icon/ball_white.png" alt="Значек мячика"></a>
-			</li>
-			<li>
-				<a href="http://www.facebook.com"><img src="img/icon/fb_white.png" alt="Значек фейсбука"></a>
-			</li>
-			<li>
-				<a href="http://www.github.com"><img src="img/icon/git_white.png" alt="Значек гита"></a>
-			</li>
-			<li>
-				<a href="http://www.instagram.com"><img src="img/icon/inst_white.png" alt="Значек инсты"></a>
-			</li>
-		</ul>
-	</div>
+		<footer><p> Copyright 2021 Кирилл. Design by WEB</p></footer>
 
-	<div class="map">
-		
-
-	</div>
-
-	<footer><p> Copyright 2021 Кирилл. Design by WEB</p></footer>
-
-
-
-</body>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

@@ -1,6 +1,5 @@
 body{
-	padding: 50px;
-}
+	}
 
 .box span{
 	display: block;
@@ -31,16 +30,81 @@ body{
 	}
 }
 
+.block_orange{
+	padding-top: 30px;
+	width:  94%;
+	height: 322px;
+	margin: 3%;
+	background-color: orange;
+	display: flex;
+	/* выравнивание по горизонтали*/
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.boxik {
+
+	height: 100%;
+	background-color: green;
+	text-align: center;
+}
+
+.boxik1 {
+
+}
+
+.block_green{
+	width: 20%;
+	height: 590px;
+	background-color: green;
+	margin-left:3%;
+	float:left;
+}
+
+.block_blue{
+	margin-left: 3%;
+	width: 71%;
+	height: 600px;
+	background-color: blue;
+	float:left;
+	display: flex;
+	/*выравнивание по вертикали*/
+	align-items: center;
+
+}
+
+/*Если максимальная ширина становится меньше 
+заданного значения(в данном случае 700рх),
+то выполняются действия в скобках*/
+@media (max-width: 500px){
+	.block_green{
+		width: 94%;
+		margin-right: 3%;
+		margin-bottom: 3%;
+	}
+
+	.block_blue {
+		width: 94%;
+		margin-right: 3%;
+	}
+}
+
+/*Если соотношение экрана равно заданному
+значению (в данном случае 16/9), то выполняется 
+действия в скобках */
+@media (aspect-ratio: 16/9){
 
 
+}
+
+/*Если ориентация экрана равна заданному значению 
+(в данном случае portrait(вертикально)), то выполняется
+действие в скобках (portrait(вертикально), landscape (горизонтально))*/
+
+@media (orientation: portrait) {
 
 
-
-
-
-
-
-
+}
 
 
 
