@@ -4,39 +4,13 @@ window.onload = function () {
 			      document.body.classList.add('loaded');
 			      document.body.classList.remove('loaded_hiding');
 			    	}, 500);
-			  }
+			  };
+
+new WOW().init();
+
+$("#inputTel").mask("+7(999) 999-9999");
 
 
-//let var1 = prompt("Здравстввуйте! Я рад приветствтовать Вас на своём сайте! Перед началом прошу пройти маленький опрос нужный мне для статистики. Какой тип сайта вам нужен? Для выбора варианта напишите его порядковый номер. 1) Сайт-визитка (10000р)  2) Интернет-магазин (20000р)  3) Сайт компании (30000р)", "1");
-
-//let var2 = prompt("Спасибо, осталось совсем чуть-чуть! Какой дизайн сайта Вы хотите? 1) Минимализм (5000р) 2) Корпаративный дизайн (10000р) 3) Свой Дизайн со всеми правками (от 50000р)");
-
-//let var3 = prompt("Последний вопрос! Ваш сайт должен быть: 1) Адаптивный (10000р) 2) Не адаптивный (0р)");
-
-/*
-
-if (var1 == "1") {var1 = 10000};
-if (var1 == "2") {var1 = 20000};
-if (var1 == "3") {var1 = 30000};
-
-//alert(var1);
-
-if (var2 == "1") {var2 = 5000};
-if (var2 == "2") {var2 = 10000};
-if (var2 == "3") {var2 = 50000};
-
-//alert(var2);
-
-if (var3 == "1") {var3 = 10000};
-if (var3 == "2"){var3 = 0};
-
-//alert(var3);
-
-let summ = var1 + var2 + var3;
-
-
-//alert ("Спасибо за уделенное время! Ориентировочная цена Вашего сайта: " + summ + " рублей")
-*/
 function countup(className){ //className - имя класса, в котором есть число
         var countBlockTop = $("."+className).offset().top; //смещение блока с числом относительно верхнего края	
         var windowHeight = window.innerHeight;//высота окна браузера
@@ -106,7 +80,11 @@ $('.time').text(sumTime + timeName);
 
 $('.sum').text(summ);
 
-
 });
 
+$('a[href^="#"]').click(function(){
 
+	let valHref = $(this).attr("href");
+	$('html, body').animate({scrollTop: $(valHref).offset().top - 50 + "px"});
+
+});

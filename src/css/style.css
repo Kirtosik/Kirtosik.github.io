@@ -134,7 +134,7 @@ main{
 .main {
 	width: 100%;
 	height: 100%;
-	background: url("../img/photo.png") 90% 100%/auto 85% no-repeat , url("../img/fon3.png") center/cover no-repeat; /* url("../img/photo.png") 100% 100%/auto no-repeat ,*/
+	background: url("../img/photo.png") 100% 100%/auto 95% no-repeat , url("../img/fon3.png") center/cover no-repeat; /* url("../img/photo.png") 100% 100%/auto no-repeat ,*/
 
 }
 
@@ -641,8 +641,7 @@ main{
 }
 
 .forma_svaz form{
-	margin-top: 10px;
-
+	color: black;
 }
 
 .forma_svaz .text{
@@ -652,6 +651,7 @@ main{
 	background-color: #d0d5dd; 
 	margin-bottom: 15px;
 }
+
 
 .forma_svaz .two{
 	margin-left: 15px; 
@@ -666,24 +666,25 @@ main{
 	margin-bottom: 10px;
 }
 
-.button{
-	width: 150px;
-	height: 30px;
+.button1{
+	width: 200px;
+	height: 50px;
 	color:white;
 	border: 2px solid white;
 	border-radius: 5px;
 	background-color: rgba(0, 125, 215,0);
-	transform: scale(1);
+		transform: scale(1);
 	transition: all 0.3s;
 }
 
-.button:hover{
+.button1:hover{
 	transform: scale(1.2);
 }
 
-.button:active{
+.button1:active{
 	transform: scale(0.9);
 }
+
 
 .social{
 	margin-top: 10px;

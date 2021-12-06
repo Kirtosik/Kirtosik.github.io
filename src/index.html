@@ -13,6 +13,8 @@
 
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
 		<meta property="og/title" content="Урок 2">
 
 
@@ -83,7 +85,7 @@
 		<div class="about_me" id="about_me">
 			<div class="container mb-5">
 				<div class="row"><div class="col-4 offset-4 gy-5 ">
-					<h3>ОБО МНЕ</h3>
+					<h3 class="wow animate__animated animate__backInDown">ОБО МНЕ</h3>
 				</div></div>
 
 				<div class="row"><div class="col-4 offset-4">
@@ -105,7 +107,7 @@
 		<div class="i_can" id="i_can">
 			<div class="container pb-5">
 				<div class="row"><div class="col gy-5 ">
-						<h3>ЧТО Я УМЕЮ</h3>
+						<h3 class="wow animate__animated animate__backInLeft">ЧТО Я УМЕЮ</h3>
 				</div></div>
 
 				<div class="row"><div class="col">
@@ -143,7 +145,7 @@
 
 		<div class="cases" id="cases">
 			<div class="container">
-			<h3>КЕЙСЫ</h3>
+			<h3 class="wow animate__animated animate__backInRight">КЕЙСЫ</h3>
 			<img src="img/line_about_me.png" class="line_cases">
 			<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Adipisci libero culpa incidunt, corrupti. Libero voluptate, odio tempora eius, asperiores doloremque.</p>
 			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -239,7 +241,7 @@
 
 		<div class="stat container pb-5" id="stat">
 			<div class="row"><div class="col gy-5 ">
-				<h3>НЕМНОГО СТАТИСТИКИ</h3>
+				<h3 class=" wow animate__animated animate__backInUp">НЕМНОГО СТАТИСТИКИ</h3>
 			</div></div>
 
 			<div class="row"><div class="col">
@@ -274,7 +276,7 @@
 
 		<div class="review mb-5  container justify-content-center" id="review">
 			<div class="row"><div class="col-4 offset-4 gy-5 ">
-				<h3>ОТЗЫВЫ</h3>
+				<h3 class="wow animate__animated animate__fadeInTopLeft">ОТЗЫВЫ</h3>
 			</div></div>
 
 			<div class="row"><div class="col-4 offset-4">
@@ -295,9 +297,6 @@
 					</div>
 					</div>
 
-					<div class="dots">
-					
-					</div>
 				</div>
 			</div>
 		</div>
@@ -305,7 +304,7 @@
 		<div class="contact" id="contact">
 			<div class="container pb-5">
 			<div class="row"><div class="col-4 offset-4 gy-5 ">
-				<h3>МОИ КОНТАКТЫ</h3>
+				<h3 class=" wow animate__animated animate__fadeInTopRight" data-wow-delay="0.5s">МОИ КОНТАКТЫ</h3>
 			</div></div>
 
 			<div class="row"><div class="col-4 offset-4">
@@ -331,21 +330,48 @@
 				</ul>
 			</div>
 			<div class="forma_svaz">
-					<h4>Оставте мне сообщение</h4>
-					<div class="row justify-content-center">
-						<div class="col-8">
-							<form action="#">
-								<div class="row justify-content-center">
-									<input class="text col" type="text" name="textInput" value="" placeholder="Имя">
-									<input class="text two col" type="text" name="textInput" value="" placeholder="Email">
-								</div>
-								<div class="row">
-									<textarea placeholder="Введите сообщение" class="col"></textarea>
-								</div>
-								<input class="button" type="button" name="" value="Отправить">
-							</form>
-						</div>
-					</div>
+				<!-- Button trigger modal -->
+<button type="button" class="button1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Оставте мне сообщение
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+		  <div class="row mb-3">
+		    <label for="inputEmail3" class="col-sm-2 col-form-label">Ваш Email</label>
+		    <div class="col-sm-10">
+		      <input type="email" class="form-control" id="inputEmail3">
+		    </div>
+		  </div>
+		  <div class="row mb-3">
+		    <label for="inputTel" class="col-sm-2 col-form-label">Ваш телефон</label>
+		    <div class="col-sm-10">
+		      <input type="phone" class="form-control" id="inputTel">
+		    </div>
+		  </div>
+		   <div class="row mb-3">
+		    <label for="inputText" class="col-sm-2 col-form-label">Ваше сообщение</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" id="inputText">
+		    </div>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Отправить</button>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
 				</div>
 			</div>
 			<div class="row">
@@ -373,12 +399,23 @@
 
 		<footer><p> Copyright 2021 Кирилл. Design by WEB</p></footer>
 
+	
 		
 
 		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-		<script type="text/javascript" src="js/jquery.spincrement.js"></script>
+		<script type="text/javascript" src="js/jQuery.Maskedinput.js"></script>
+
+		<script type="text/javascript" src="js/wow.min.js"></script>
+
 		<script type="text/javascript" src="js/myScript.js"></script>
+
+		
+
+		<script type="text/javascript" src="js/jquery.spincrement.js"></script>
+
+
+
 	
 	</body>
 </html>
