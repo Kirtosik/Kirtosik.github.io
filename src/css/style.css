@@ -131,6 +131,25 @@ main{
 		margin-left: 0px;
 	}
 }
+.score {
+	margin-top: 20px;
+	font-size:20px;
+	font-weight: bold;
+
+}
+
+.Atel {
+ text-decoration: none;
+ color:white;
+
+}
+
+.Atel:hover{
+	text-decoration: none;
+	color:white;
+}
+
+
 .main {
 	width: 100%;
 	height: 100%;

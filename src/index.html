@@ -74,7 +74,7 @@
 					<div class="title mt-5">
 					<h1>Привет <br> Я Кирилл Дьяконов</h1>
 					<h4><i class="fa fa-css3" aria-hidden="true"></i>Фулл-стек веб разработчик</h4>
-					<input type="button" name="" value="Обо мне">
+					<a href="#about_me"><input type="button" name="" value="Обо мне"></a>
 					<input type="button" name="" value="Мои работы">
 				</div>
 				</div></div></div>
@@ -85,7 +85,7 @@
 		<div class="about_me" id="about_me">
 			<div class="container mb-5">
 				<div class="row"><div class="col-4 offset-4 gy-5 ">
-					<h3 class="wow animate__animated animate__backInDown">ОБО МНЕ</h3>
+					<h3 class="wow animate__animated animate__backInDown" >ОБО МНЕ</h3>
 				</div></div>
 
 				<div class="row"><div class="col-4 offset-4">
@@ -95,9 +95,9 @@
 				<div class="row justify-content-center">
 					<div class="col-8"><br>
 						<img src="img/about_me2.jpg" alt="Мой красивый фейс" class="photo_am">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus molestiae cumque perspiciatis ratione ad adipisci voluptate architecto mollitia, ea consequatur et eum! Debitis, facere, beatae maiores iusto quidem ea mollitia omnis possimus.</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Asperiores, quam, perspiciatis. Inventore modi cum deleniti velit impedit, dolore ab ex alias incidunt tempora assumenda, optio a tempore quasi vel magnam nobis explicabo error!</p>
-							<input type="submit" name="" value="Скачать резюме">
+						<p>Привет, я Кирилл. Я тот кто придумает рабочие и весьма интересные фишки для твоего сайта! И более того, ещё и реализует их! Почему это точно сработает? Да потому, в годы своей бурной и веселой молодости весьма успешно играл в КВН и поверь, я знаю толк в интересных вещах которые заходят людям! <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+						<p>А если серьёзно, то за плечами у меня 6 лет универа в техническом направлении, своё изобретение и патент на него, своя производственная компания (у которой совсем скоро тоже будет свой бомбический сайт), так же 6 лет работы с детьми в школе и чемпионство во всероссийских соревнованиях... Это лишь малая часть всего того, что я могу тебе рассказать! Чуть ниже есть кнопочка, по которой ты сможешь скачать моё резюме, а если остались вопросы или тебе просто интересно со мной поговорить, то в конце странички есть мои контакты. Так что <b> welcome! </b></p>
+							<a href="img/rezum.docx" download><input type="submit" name="" value="Скачать резюме"></a>
 						</div> 
 				
 				</div></div>
@@ -243,6 +243,7 @@
 			<div class="row"><div class="col gy-5 ">
 				<h3 class=" wow animate__animated animate__backInUp">НЕМНОГО СТАТИСТИКИ</h3>
 			</div></div>
+			<div class="row"><div class="col"><p class="score" >Совсем скоро тут будет...</p></div></div>
 
 			<div class="row"><div class="col">
 				<img src="img/line_about_me.png" class="line_stat">
@@ -252,7 +253,7 @@
 				<ul>
 					<li class="col">
 						<img src="img/icon/smile_orange.png" alt="Смайлик">
-						<div class="number1 number">120</div>
+						<div class="number1 number">1000000</div>
 						<p class="stat_text">Довольных клиентов</p>
 					</li>
 					<li class="col">
@@ -262,13 +263,13 @@
 					</li>
 					<li class="col">
 						<img src="img/icon/galka_orange.png" alt="Галочка">
-						<h5 class="number">340</h5>
-						<p class="stat_text">Проектов закончено</p>
+						<h5 class="number">10567</h5>
+						<p class="stat_text">Законченных проектов</p>
 					</li>
 					<li class="col">
 						<img src="img/icon/kubok_orange.png" alt="Кубок">
-						<h5 class="number">23</h5>
-						<p class="stat_text">Наград получено</p>
+						<h5 class="number">1005</h5>
+						<p class="stat_text">Полученных наград</p>
 					</li>
 				</ul>
 			</div>
@@ -301,6 +302,19 @@
 			</div>
 		</div>
 
+
+		<div class="map">
+
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e8c90aafa76cbcfe58758fd5c72f05a0649df085a61e5d54f0351bcdd65d036&amp;width=100%25&amp;height=647&amp;lang=ru_RU&amp;scroll=false"></script>
+			
+
+		</div>
+
+
+
+
+
+
 		<div class="contact" id="contact">
 			<div class="container pb-5">
 			<div class="row"><div class="col-4 offset-4 gy-5 ">
@@ -325,7 +339,7 @@
 					</li>
 					<li class="col">
 						<img src="img/icon/phone_white.png" alt="Телефонная трубка">
-						<p>+7999-999-99-99</p>
+						<a href="tel:+7-939-793-94-45" class="Atel"><p>+7-939-793-94-45</p></a>
 					</li>
 				</ul>
 			</div>
@@ -340,7 +354,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Окно обратной связи</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -363,7 +377,7 @@
 		      <input type="text" class="form-control" id="inputText">
 		    </div>
 		  </div>
-		  <button type="submit" class="btn btn-primary">Отправить</button>
+		  <button type="submit" id="formBtm" class="btn btn-primary" data-bs-dismiss="modal">Отправить</button>
 		</form>
       </div>
       <div class="modal-footer">
@@ -392,10 +406,7 @@
 		</div>
 		</div>
 
-		<div class="map">
-			
 
-		</div>
 
 		<footer><p> Copyright 2021 Кирилл. Design by WEB</p></footer>
 
